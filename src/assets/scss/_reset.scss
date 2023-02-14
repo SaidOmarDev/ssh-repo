@@ -1,0 +1,33 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    margin: auto !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 3px;
+}
+
+::-moz-selection {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+::selection {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+* {
+  scroll-behavior: smooth;
+}
